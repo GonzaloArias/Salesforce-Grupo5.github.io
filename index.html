@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class="main">
+
+        <figure class="main__figure">
+            <img src="./img/Isometric.svg" class="main__img">
+        </figure>
+
+        <div class="main__contact">
+
+            <h2 class="main__title">Fundacion Guay!</h2>
+            <p class="main__paragraph">Recaudación de fondos</p>
+            
+            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+            method="POST" class="main__form">
+            
+            <input type="hidden" name="oid" value="00DHs000000Q2nF" />
+            <input type="hidden" name="retURL" value="https://codesandbox.io/s/kind-violet-no9gcl?file=/congrats.html" />
+
+                <input  id="first_name" placeholder="Nombre" maxlength="40" name="first_name" size="20" type="text" class="main__input" required/><br>  
+                <input  id="last_name" placeholder="Apellido" maxlength="80" name="last_name" size="20" type="text" class="main__input" /><br>
+                <input  id="email" placeholder="Email" maxlength="80" name="email" size="20" type="text" class="main__input" /><br>
+                <input  id="company" placeholder="Company" maxlength="40" name="company" size="20" type="text" class="main__input" /><br>
+                <input  id="city" placeholder="Ciudad" maxlength="40" name="city" size="20" type="text" class="main__input" /><br>
+                <input  id="phone" placeholder="Telefono" maxlength="40" name="phone" size="20" type="text" class="main__input" /><br>
+
+
+                <input type="submit" value="Sign In" class="main__input main__input--send">
+             
+
+            </form>
+
+            <p class="main__paragraph">Or continue with</p>
+
+            <article class="main__social">
+
+                <a href="https://www.guayerd.com/es/" Target="_blank" class="main__link">
+                    <img src="./img/Guayerd-icon.svg"  class="main__icon" >
+                </a>
+
+                <a href="https://winguweb.org/" Target="_blank" class="main__link">
+                    <img src="./img/wingu-icono.svg" class="main__icon">
+                </a>
+
+                <a href="https://www.salesforce.com/mx/products/what-is-salesforce/?gclid=CjwKCAjwg-GjBhBnEiwAMUvNW9nu8Nm5VoZx4RWf_RS8vgGGmbMa0amVePo7B6STwT1rMF8wva9_VRoCDcEQAvD_BwE&d=7013y000002hH7RAAU&nc=7013y000002hH7WAAU&utm_source=google&utm_medium=paid_search&utm_campaign=grw_alllobaw&dcmp=grw_google&ef_id=CjwKCAjwg-GjBhBnEiwAMUvNW9nu8Nm5VoZx4RWf_RS8vgGGmbMa0amVePo7B6STwT1rMF8wva9_VRoCDcEQAvD_BwE:G:s&gclsrc=aw.ds&&pcrid=532475013730&pdv=c&gad=1" Target="_blank" class="main__link">
+                    <img src="./img/salesforce.svg"  class="main__icon">
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+</body>
+
+</html>
